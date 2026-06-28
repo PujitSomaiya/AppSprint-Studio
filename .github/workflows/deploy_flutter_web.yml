@@ -34,7 +34,7 @@ jobs:
         run: flutter pub get
 
       - name: Build Flutter web
-        run: flutter build web --release --base-href "/AppSprint-Studio/"
+        run: flutter build web --release --base-href "/AppSprint-Studio.github.io/"
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
